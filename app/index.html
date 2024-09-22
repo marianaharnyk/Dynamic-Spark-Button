@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Dynamic Spark Button</title>
+</head>
+<body>
+<main>
+    <button type="button" class="dynamic_spark_button">
+        <svg>
+            <defs>
+                <linearGradient id="grad1" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#c0392b"/>
+                    <stop offset="15%" stop-color="#f39c12"/>
+                    <stop offset="30%" stop-color="#f1c40f"/>
+                    <stop offset="45%" stop-color="#2ecc71"/>
+                    <stop offset="60%" stop-color="#3498db"/>
+                    <stop offset="75%" stop-color="#2980b9"/>
+                    <stop offset="90%" stop-color="#9b59b6"/>
+                    <stop offset="100%" stop-color="#8e44ad"/>
+                </linearGradient>
+            </defs>
+            <rect width="100%" height="100%" stroke="url(#grad1)"/>
+        </svg>
+        <span>Button</span>
+    </button>
+</main>
+</body>
+</html>
