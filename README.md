@@ -1,4 +1,4 @@
-# Markify 
+# Dynamic Spark Button 
 You can visit deployed version by this link https://marianaharnyk.github.io/
 
 ## Development server
