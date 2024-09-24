@@ -1,6 +1,5 @@
 # Dynamic Spark Button 
-You can visit deployed version by this link https://marianaharnyk.github.io/
-
+You can visit deployed version by this link https://marianaharnyk.github.io/Dynamic-Spark-Button/
 ## Development server
 
 Run `npm install` to install dependencies. Then run `gulp default` to run the app locally. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
